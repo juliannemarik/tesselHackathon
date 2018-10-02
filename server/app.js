@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const volleyball = require('volleyball');
 const path = require('path')
-const { db }= require ('./models/seedData');
+const { db }= require ('./models');
 
 // EXPRESS MIDDLEWARE
 app.use(volleyball);
