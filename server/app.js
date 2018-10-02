@@ -10,8 +10,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
 // ROUTING MIDDLEWARE
-app.use('/pugs', require('./routes/pugs.route'));
-app.use('/coffee', require('./routes/coffee.route'));
+// app.use('/', require('./')); // INSERT ROUTE
 
 // SYNCH THE DATABASE & LISTEN TO PORT
 const PORT = 8080;
